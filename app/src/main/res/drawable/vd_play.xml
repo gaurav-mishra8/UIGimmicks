@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="48dp"
+    android:height="48dp"
+    android:viewportHeight="12"
+    android:viewportWidth="12">
+
+    <!-- This path draws an orange triangular play icon. -->
+    <path
+        android:name="playPath"
+        android:fillColor="#FF9800"
+        android:pathData="@string/play_path"/>
+
+</vector>

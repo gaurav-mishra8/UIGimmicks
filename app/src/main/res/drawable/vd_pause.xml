@@ -1,0 +1,11 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+        android:width="48dp"
+        android:height="48dp"
+        android:viewportWidth="12"
+        android:viewportHeight="12">
+    <!-- This path draws two green stroked vertical pause bars. -->
+    <path
+        android:pathData="@string/pause_path"
+        android:strokeColor="#0F9D58"
+        android:strokeWidth="2"/>
+</vector>

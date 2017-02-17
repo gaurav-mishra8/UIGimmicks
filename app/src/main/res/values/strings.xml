@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">UiGimmicks</string>
+    <string name="animation_demo">Animation Demo</string>
+    <string name="customview_demo">CustomView Demo</string>
+    <string name="transition_demo">Transition Demo</string>
+    <string name="action">Action</string>
+    <string name="vector_demo">Vector Demo</string>
+
+    <string name="empty_clip_path">M18 37 L38 37 L38 37 L18 37 Z</string>
+    <string name="shared_transition">Activity Shared Transition</string>
+    <string name="shared_transition_name">shared transition name</string>
+    <string name="start_transition">Start Transition</string>
+    <string name="food_description">Junk Food as we all know is unhealthy for our health and leads to obesity ,health disorders if intake is not monitored properly</string>
+    <string name="shared_transition_desc">shared text</string>
+    <string name="shared_transition_image">shared image</string>
+    <string name="fragment_shared_transition">Fragment Shared Transition</string>
+    <string name="fragment_image_transition">Fragment image transition</string>
+    <string name="play_path">M 4,2.5 L 4,9.5 L 9.5,6 Z</string>
+    <string name="plus_path">M 5,2 L 5,10 M 1,6 L 9,6</string>
+    <string name="pause_path">M 4,2.5 L4,9.5 M 8,2.5 L 8,9.5</string>
+    <string name="transition_source_activity">TransitionSourceActivity</string>
+    <string name="transition_dest_activity">TransitionDestinationActivity</string>
+</resources>
