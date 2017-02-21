@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("com.greenbotsite.customviewsample", appContext.getPackageName());
+        assertEquals("com.greenbotsite.uiGimmicks", appContext.getPackageName());
     }
 }

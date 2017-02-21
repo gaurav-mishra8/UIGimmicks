@@ -20,6 +20,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     Button vector;
     @BindView(R.id.btn_custom)
     Button customView;
+    @BindView(R.id.btn_circular_reveal)
+    Button circularReveal;
+
+    int pos = 0;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -33,13 +37,14 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         fragmentTransition.setOnClickListener(this);
         vector.setOnClickListener(this);
         customView.setOnClickListener(this);
+        circularReveal.setOnClickListener(this);
     }
 
     @Override
     public void onClick(View v) {
         switch (v.getId()) {
             case R.id.btn_anim:
-                AnimationDemoActivity.startActivity(this);
+               // AnimationDemoActivity.startActivity(this);
                 break;
             case R.id.btn_shared_transition:
                 TransitionSourceActivity.startactivity(this);
@@ -52,6 +57,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 break;
             case R.id.btn_custom:
                 CustomViewActivity.startactivity(this);
+                break;
+            case R.id.btn_circular_reveal:
+
+                CircularRevealActivity.startActivtiy(this);
                 break;
         }
     }

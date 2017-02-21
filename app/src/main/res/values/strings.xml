@@ -5,6 +5,7 @@
     <string name="transition_demo">Transition Demo</string>
     <string name="action">Action</string>
     <string name="vector_demo">Vector Demo</string>
+    <string name="reset_button">Reset</string>
 
     <string name="empty_clip_path">M18 37 L38 37 L38 37 L18 37 Z</string>
     <string name="shared_transition">Activity Shared Transition</string>
@@ -20,4 +21,5 @@
     <string name="pause_path">M 4,2.5 L4,9.5 M 8,2.5 L 8,9.5</string>
     <string name="transition_source_activity">TransitionSourceActivity</string>
     <string name="transition_dest_activity">TransitionDestinationActivity</string>
+    <string name="circular_reveal">Circular Reveal</string>
 </resources>

@@ -23,6 +23,8 @@
         <activity android:name="com.greenbotsite.uiGimmicks.TransitionDestinationActivity" android:theme="@style/TransitionApptheme"/>
         <activity android:name="com.greenbotsite.uiGimmicks.CustomViewActivity"/>
         <activity android:name="com.greenbotsite.uiGimmicks.FragmentTransitionActivity"/>
+        <activity android:name=".CircularRevealActivity"
+           />
 
 
     </application>

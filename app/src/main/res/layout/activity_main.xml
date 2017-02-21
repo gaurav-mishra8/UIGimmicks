@@ -30,6 +30,12 @@
         android:id="@+id/btn_fragment_shared_transition"
         android:text="@string/fragment_shared_transition"/>
 
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_circular_reveal"
+        android:text="@string/circular_reveal"/>
+
 
     <Button
         android:id="@+id/btn_vector"
