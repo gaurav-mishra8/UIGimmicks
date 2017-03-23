@@ -11,9 +11,17 @@
         android:id="@+id/tv_label"
         android:layout_width="160dp"
         android:layout_height="160dp"
-        android:src="@drawable/food"
         android:scaleType="centerCrop"
-        android:visibility="gone"
+        android:src="@drawable/food"
+        android:visibility="invisible"
         tools:visibility="visible" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        style="@android:style/TextAppearance.DeviceDefault.Large"
+        android:text="Click Anywhere on screen" />
 
 </LinearLayout>

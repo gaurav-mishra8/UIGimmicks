@@ -9,6 +9,7 @@ import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
 import android.transition.Transition;
+import android.transition.TransitionManager;
 import android.util.Log;
 import android.view.View;
 import android.view.ViewAnimationUtils;
@@ -58,8 +59,9 @@ public class CircularRevealActivity extends AppCompatActivity implements View.On
         }
 
         // make the view visible and start the animation
-        imageView.setVisibility(View.VISIBLE);
         anim.start();
+        imageView.setVisibility(View.VISIBLE);
+
     }
 
     @Override

@@ -22,4 +22,5 @@
     <string name="transition_source_activity">TransitionSourceActivity</string>
     <string name="transition_dest_activity">TransitionDestinationActivity</string>
     <string name="circular_reveal">Circular Reveal</string>
+    <string name="scene_transition">Scene Transition</string>
 </resources>

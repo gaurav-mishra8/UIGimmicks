@@ -17,14 +17,18 @@
         </activity>
 
 
-        <activity android:name="com.greenbotsite.uiGimmicks.AnimationDemoActivity"/>
-        <activity android:name="com.greenbotsite.uiGimmicks.VectorDemoActivity"/>
-        <activity android:name="com.greenbotsite.uiGimmicks.TransitionSourceActivity"  android:theme="@style/TransitionApptheme"/>
-        <activity android:name="com.greenbotsite.uiGimmicks.TransitionDestinationActivity" android:theme="@style/TransitionApptheme"/>
-        <activity android:name="com.greenbotsite.uiGimmicks.CustomViewActivity"/>
-        <activity android:name="com.greenbotsite.uiGimmicks.FragmentTransitionActivity"/>
-        <activity android:name=".CircularRevealActivity"
-           />
+        <activity android:name="com.greenbotsite.uiGimmicks.AnimationDemoActivity" />
+        <activity android:name="com.greenbotsite.uiGimmicks.VectorDemoActivity" />
+        <activity
+            android:name="com.greenbotsite.uiGimmicks.TransitionSourceActivity"
+            android:theme="@style/TransitionApptheme" />
+        <activity
+            android:name="com.greenbotsite.uiGimmicks.TransitionDestinationActivity"
+            android:theme="@style/TransitionApptheme" />
+        <activity android:name="com.greenbotsite.uiGimmicks.CustomViewActivity" />
+        <activity android:name="com.greenbotsite.uiGimmicks.FragmentTransitionActivity" />
+        <activity android:name=".CircularRevealActivity" />
+        <activity android:name=".SceneTransitionActivity" />
 
 
     </application>
